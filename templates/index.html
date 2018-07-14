@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Machile learning Project</title>
+  <link rel="stylesheet" type= "text/css"  href="../static/styles/mainpage.css">
+</head>
+
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<body>
+<header class="navbar">
+    <div class="outer">
+        <div class="middle">
+            <div class= 'firstdiv'>
+                <center>
+                    <form action="/api/text_class" method="post" enctype="multipart/form-data" class='formData'>
+                      <p>
+                        Click to Upload csv file
+                      </p>
+                        <input type="file" name="df_file" id="1" accept=".csv" required/>
+                      <br><br>
+                        <input type="submit" value="Upload your file">
+                      </form>
+                </center>
+              </div>
+        </div>
+    </div>
+  </header>
+
+</body>
+</html>
